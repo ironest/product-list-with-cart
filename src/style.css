@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+}
+
+body {
+  font-family: "Red Hat Text", sans-serif;
+  background-color: #fcf8f5;
+}
+
+.no-scroll {
+  overflow: hidden; /* Disables scrolling */
+}
+
+/* main::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: -10000px;
+  background-image: url(../design/desktop-design-order-confirmation.jpg);
+  opacity: 0.5;
+} */
