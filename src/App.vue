@@ -34,6 +34,7 @@ main {
   align-items: center;
 
   @media only screen and (min-width: 800px) {
+    margin-top: 65px;
     & > div {
       max-width: 800px;
     }

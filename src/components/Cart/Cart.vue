@@ -41,7 +41,7 @@ export default {
 
 <template>
   <div class="cart">
-    <h3 class="title">Your Cart ({{ totalNumberOfItems }})</h3>
+    <h2 class="title">Your Cart ({{ totalNumberOfItems }})</h2>
 
     <EmptyCart v-if="store.state.cartItems.length === 0" />
 
@@ -78,7 +78,7 @@ export default {
   width: 100%;
 
   @media only screen and (min-width: 1200px) {
-    width: 300px;
+    width: 380px;
     margin: 0px;
     position: sticky;
     top: 40px;
