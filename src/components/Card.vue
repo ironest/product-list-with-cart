@@ -106,7 +106,7 @@ const formattedPrice = computed(() => {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: -28px;
+    margin-top: -23px;
     button {
       font-size: 14px;
       border-radius: 22px;
